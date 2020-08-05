@@ -17,7 +17,7 @@ namespace FaceDetection
 
         private void btnOpen_Click(object sender, EventArgs e)
         {
-            using (OpenFileDialog ofd = new OpenFileDialog() { Filter = "PNG|*.png|JPEG|*.jpeg" })
+            using (OpenFileDialog ofd = new OpenFileDialog() { Filter = "PNG|*.png|JPEG|*.jpeg|JPEG|*.jpg" })
             {
                 if (ofd.ShowDialog() == DialogResult.OK)
                 {
