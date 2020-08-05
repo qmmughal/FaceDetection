@@ -1,5 +1,5 @@
 # Face Detection
-Object Detection using Alturos.Yolo
+Object Detection using Alturos.Yolo and C#
 
 # NuGet
 Quick install Alturos.Yolo over NuGet
